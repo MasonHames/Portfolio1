@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
-import pdf from "../../Assets/Soumyajit-Behera.pdf";
+import pdf from "../../Assets/Resume_Mason_Hames.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -42,14 +42,11 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Frontend Developer Intern [Flash Tech]"
-              date="July 2021 - September 2021"
+              title="Software Engineer I"
+              date="April 2022 - September 2022"
               content={[
-                "Worked on the development of an E-commerce website",
-                "Redesigned Wigme.com and created features to enhance the user experience and optimized designs for smartphones.",
-                " Translated designs and wireframes into a highly responsive user interface and reusable components using React.js.",
-                "Used Back-End APIs to display data using the Custom Components, library Components, and Redux.",
-                "Used JIRA as the bug tracking system to track and maintain the history of bugs/issues on an everyday basis.",
+                "  Developed a number of branded web applications for national and international client events with multiple languages, locations, and event specific content to client specifications utilizing Figma and AdobeXD for design along with the Azure and BitBucket pipelines for deployment.",
+                "  Created a Node.js based application linking data from SalesForce, AWS, and the JIRA platform with the use of SQL and API queries",
               ]}
             />
             <h3 className="resume-title">Extracurricular Activities</h3>
