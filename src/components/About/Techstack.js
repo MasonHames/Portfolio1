@@ -11,8 +11,10 @@ import {
   DiMongodb,
   DiGit,
   DiMysql,
-} from "react-icons/di";
-
+  } from "react-icons/di";
+import {
+  SiTailwindcss
+} from "react-icons/si";
 
 function Techstack() {
   return (
@@ -46,6 +48,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
       </Col>
     </Row>
   );
