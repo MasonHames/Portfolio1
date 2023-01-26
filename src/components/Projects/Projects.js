@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import codebois from "../../Assets/Projects/codebois.png";
-import Fiyah from "../../Assets/Projects/Fiyah.png";
+import Fiyah from "../../Assets/Projects/Smash-Image.png";
 
 function Projects() {
   return (
@@ -31,7 +31,7 @@ function Projects() {
             <ProjectCard
               imgPath={Fiyah}
               title="Smash-Char-Theme-Select"
-              description="This application will randomily select a theme from a list of known themes. Once the list is exhausted, it will reset the list and continue randomily selecting from the list."
+              description="This application will randomly select a theme from a list of known themes. Once the list is exhausted, it will reset the list and continue randomly selecting from the data available."
               ghLink="https://github.com/MasonHames/Smash-Char-Theme-Select"
               demoLink="https://masonhames.github.io/Smash-Char-Theme-Select/"
             />
