@@ -23,7 +23,7 @@ function Projects() {
               title="portfolio"
               description="Personal portfolio page written in REACT."
               ghLink="https://github.com/MasonHames/Portfolio1"
-              demoLink="https://portfolio1-drab.vercel.app/"
+              demoLink="https://masonhames.vercel.app/"
             />
           </Col>
 
